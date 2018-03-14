@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle xmtest",
+        "command": "xmtest:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "xmtest",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "xmtest:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

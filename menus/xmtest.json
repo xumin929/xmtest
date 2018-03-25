@@ -17,7 +17,12 @@
             {
               "label": "Toggle",
               "command": "xmtest:toggle"
+            },
+            {
+              "label": "addPanel",
+              "command": "xmtest:addpanel"
             }
+
           ]
         }
       ]

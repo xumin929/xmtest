@@ -9,9 +9,16 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react-dnd": "^2.6.0",
+    "react-dnd-html5-backend": "^2.6.0",
+    "react-dragger-r": "0.0.12"
+  },
   "deserializers": {
-    "xmtest/XmtestView": "deserializeXmtestView"
+    "xmtest/XmtestView": "deserializeXmtestView",
+    "pane/PaneView": "deserializePaneView",
+    "panel/PanelView": "deserializePanelView",
+    "attr/AttrView": "deserializeAttrView"
   },
   "devDependencies": {
     "antd": "^3.3.1",
